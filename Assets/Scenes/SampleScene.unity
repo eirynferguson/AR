@@ -195,6 +195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 612094447}
   - component: {fileID: 612094446}
+  - component: {fileID: 612094448}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -235,6 +236,21 @@ Transform:
   - {fileID: 1667324402}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &612094448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612094445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedLibrary: {fileID: 11400000, guid: 66b25cc6f222e84448703d99c70f2ac8, type: 2}
+  m_MaxNumberOfMovingImages: 2
+  m_TrackedImagePrefab: {fileID: 5682425371745328995, guid: f1aaa71b9a96d0045994fed2fa281030, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,8 +568,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FocusMode: 1
-  m_LightEstimationMode: 0
+  m_FocusMode: -1
+  m_LightEstimationMode: -1
   m_AutoFocus: 1
   m_LightEstimation: 0
   m_FacingDirection: 1
@@ -701,9 +717,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 609692397}
     m_Modifications:
+    - target: {fileID: 572048813452523743, guid: 17f9eafc93912c445aaf951bb40eeb08, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1358332817872219656, guid: 17f9eafc93912c445aaf951bb40eeb08, type: 3}
       propertyPath: m_Name
       value: Sphere (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358332817872219656, guid: 17f9eafc93912c445aaf951bb40eeb08, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2442007229672194517, guid: 17f9eafc93912c445aaf951bb40eeb08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -763,6 +787,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 609692397}
     m_Modifications:
+    - target: {fileID: 1873710179038872606, guid: 1dfc157d8676c464bbfa59b03bad3132, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2003426834120360077, guid: 1dfc157d8676c464bbfa59b03bad3132, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.03
@@ -807,6 +835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6951297644635715627, guid: 1dfc157d8676c464bbfa59b03bad3132, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -825,6 +857,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 609692397}
     m_Modifications:
+    - target: {fileID: 1042953208207862679, guid: 181b5547a4633834c962b9a718e147cb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3440960802000174270, guid: 181b5547a4633834c962b9a718e147cb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -868,6 +904,10 @@ PrefabInstance:
     - target: {fileID: 3746319740263198728, guid: 181b5547a4633834c962b9a718e147cb, type: 3}
       propertyPath: m_Name
       value: Sphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746319740263198728, guid: 181b5547a4633834c962b9a718e147cb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
