@@ -26,11 +26,13 @@ public class CharacterManager : MonoBehaviour
         {
             // Get the first touch event (useful if we're only using single-touch interactions).
             Touch touch = Input.GetTouch(0);
+
             // Check if the touch is on a UI element
-            if (EventSystem.current.IsPointerOverGameObject(touch.fingerId))
+            /*if (EventSystem.current.IsPointerOverGameObject(touch.fingerId))
             {
                 return; // Ignore the touch if it's on a UI element
-            }
+            }*/
+
             // Check if the touch phase just began (indicating the player has just touched the screen).
             if (touch.phase == TouchPhase.Began)
             {
