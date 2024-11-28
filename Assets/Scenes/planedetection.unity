@@ -134,8 +134,8 @@ GameObject:
   - component: {fileID: 159233585}
   - component: {fileID: 159233584}
   - component: {fileID: 159233583}
-  - component: {fileID: 159233587}
   - component: {fileID: 159233588}
+  - component: {fileID: 159233587}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
