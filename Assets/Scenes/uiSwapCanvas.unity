@@ -541,8 +541,8 @@ GameObject:
   - component: {fileID: 415318634}
   - component: {fileID: 415318633}
   - component: {fileID: 415318632}
-  - component: {fileID: 415318631}
   - component: {fileID: 415318630}
+  - component: {fileID: 415318631}
   - component: {fileID: 415318636}
   m_Layer: 0
   m_Name: XR Origin
@@ -1168,7 +1168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToPlace: {fileID: 2341922916937234761, guid: 290a5366e86c37c479fe3fcad0579d11, type: 3}
-  raycastManager: {fileID: 0}
+  raycastManager: {fileID: 415318630}
 --- !u!4 &1488734105
 Transform:
   m_ObjectHideFlags: 0
