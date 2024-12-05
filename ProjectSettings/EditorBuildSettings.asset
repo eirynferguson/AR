@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/uiSwapCanvas.unity
     guid: 4cab7076eeb76284e8d4a9967fc3eb35
+  - enabled: 1
+    path: Assets/Scenes/Assignment.unity
+    guid: bdafab1aadc8b8842b20a719c4b1b9a7
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 21ae64a5bf738bd42b7131f5da0d618e, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d6fb88064044f864e94eadefa68d219e, type: 2}
