@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/planedetection.unity
     guid: 76d0584527d580a48b05f49edc4a36a2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/interactable.unity
     guid: 12aad298ac8fa2e48ab295506cdb685f
+  - enabled: 0
+    path: Assets/Scenes/uiSwapCanvas.unity
+    guid: 4cab7076eeb76284e8d4a9967fc3eb35
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 21ae64a5bf738bd42b7131f5da0d618e, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d6fb88064044f864e94eadefa68d219e, type: 2}
