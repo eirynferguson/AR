@@ -18,22 +18,22 @@ MonoBehaviour:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4810827152787401947
-      m_GuidHigh: 17344320930472457089
+      m_GuidLow: 5116658493787148050
+      m_GuidHigh: 16140974150052464515
     m_SerializedTextureGuid:
-      m_GuidLow: 18294750741034252773
-      m_GuidHigh: 3392682046841183816
-    m_Size: {x: 0.1, y: 0.1}
+      m_GuidLow: 18375864566954088446
+      m_GuidHigh: 11219762443495975083
+    m_Size: {x: 0.1, y: 0.13994566}
     m_SpecifySize: 1
-    m_Name: Dr_Green
+    m_Name: Mario
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5085650927574767631
-      m_GuidHigh: 16029386775716635548
+      m_GuidLow: 5326868866445491073
+      m_GuidHigh: 17632875214676860803
     m_SerializedTextureGuid:
-      m_GuidLow: 16966272079989796925
-      m_GuidHigh: 18097094208131853307
-    m_Size: {x: 0.1, y: 0.1}
+      m_GuidLow: 9494860454970340369
+      m_GuidHigh: 9394050451891329416
+    m_Size: {x: 0.1, y: 0.14}
     m_SpecifySize: 1
-    m_Name: Jeff_the_Dog
+    m_Name: PS
     m_Texture: {fileID: 0}
