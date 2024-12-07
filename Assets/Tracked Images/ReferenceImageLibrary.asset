@@ -37,3 +37,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: PS
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5607354922676655087
+      m_GuidHigh: 17902241525074477704
+    m_SerializedTextureGuid:
+      m_GuidLow: 13993951617658002395
+      m_GuidHigh: 8422927781828481305
+    m_Size: {x: 0.1, y: 0.12323529}
+    m_SpecifySize: 1
+    m_Name: Aloy
+    m_Texture: {fileID: 0}
