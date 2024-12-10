@@ -9,8 +9,9 @@ using UnityEngine;
 
 public class CollectedItems : MonoBehaviour
 {
-    public GameObject items;
-    public static bool isHidden = false;
+    public GameObject item1;
+    public GameObject item2;
+    public GameObject item3;
 
     private List<GameObject> collectedObjects = new List<GameObject>();
    
@@ -21,22 +22,23 @@ public class CollectedItems : MonoBehaviour
 
     void Start()
     {
-        isHidden = false;
-
-        items.SetActive(false);
+        item1.SetActive(false);
+        item2.SetActive(false);
+        item3.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (collectedObjects.Count <= 0)
+        if (collectedObjects.Count > 0)
         {
-            if
-            itemsHidden();
-        }
-        else
-        {
-            itemsShown();
+           /*if item collected = item1
+            {
+              item1.SetActive(true);
+            }
+
+            repeat for item 2 and 3
+            */
         }
     }
 }
