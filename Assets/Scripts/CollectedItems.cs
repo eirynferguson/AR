@@ -32,13 +32,19 @@ public class CollectedItems : MonoBehaviour
     {
         if (collectedObjects.Count > 0)
         {
-           /*if item collected = item1
-            {
-              item1.SetActive(true);
-            }
-
-            repeat for item 2 and 3
-            */
+            /*if item collected = item1
+             {
+               item1.SetActive(true);
+             }
+             else if item collected = item2
+             {
+               item2.SetActive(true);
+             }
+             else if item collected = item2
+             {
+               item3.SetActive(true);
+             }
+             */
         }
     }
 }
