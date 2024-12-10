@@ -14,6 +14,8 @@ public class CollectedItems : MonoBehaviour
     public GameObject item3;
 
     private List<GameObject> collectedObjects = new List<GameObject>();
+
+    //GameObject item;
    
     public void Add(GameObject s)
     {
@@ -30,21 +32,25 @@ public class CollectedItems : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (collectedObjects.Count > 0)
+        if (collectedObjects.Count > 0) //checks there are items in the list
         {
-            /*if item collected = item1
-             {
-               item1.SetActive(true);
-             }
-             else if item collected = item2
-             {
-               item2.SetActive(true);
-             }
-             else if item collected = item2
-             {
-               item3.SetActive(true);
-             }
-             */
+            foreach (GameObject item in collectedObjects) //goes through each item in the list
+            {
+                if (item = Cube)
+                {
+                    item1.SetActive(true);
+                }
+                else if (item = Cube1)
+                {
+                    item2.SetActive(true);
+                }
+                else if (item = Cube2)
+                {
+                    item3.SetActive(true);
+                }
+            }
+            
+             
         }
     }
 }

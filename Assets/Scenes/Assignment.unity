@@ -2771,6 +2771,7 @@ GameObject:
   - component: {fileID: 1364023410}
   - component: {fileID: 1364023409}
   - component: {fileID: 1364023408}
+  - component: {fileID: 1364023413}
   - component: {fileID: 1364023406}
   - component: {fileID: 1364023412}
   - component: {fileID: 1364023411}
@@ -2856,9 +2857,9 @@ MonoBehaviour:
   - imageGuid: 772b0f12-05ca-4702-83c7-a38e784200e0
     imagePrefab: {fileID: 5682425371745328995, guid: f1aaa71b9a96d0045994fed2fa281030, type: 3}
   - imageGuid: d5923b81-d702-49ec-839f-9ab3958eb4f4
-    imagePrefab: {fileID: 5682425371745328995, guid: f1aaa71b9a96d0045994fed2fa281030, type: 3}
+    imagePrefab: {fileID: 5682425371745328995, guid: b3f6349a2bc70e94ea95cbd9768cbe07, type: 3}
   - imageGuid: d7ae13ef-5397-4dd1-88c2-4f21d18971f8
-    imagePrefab: {fileID: 0}
+    imagePrefab: {fileID: 5682425371745328995, guid: cbf7e7a6124689544b16a57c01098045, type: 3}
   m_ImageLibrary: {fileID: 11400000, guid: 66b25cc6f222e84448703d99c70f2ac8, type: 2}
 --- !u!114 &1364023412
 MonoBehaviour:
@@ -2875,6 +2876,20 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: 66b25cc6f222e84448703d99c70f2ac8, type: 2}
   m_MaxNumberOfMovingImages: 3
   m_TrackedImagePrefab: {fileID: 5682425371745328995, guid: f1aaa71b9a96d0045994fed2fa281030, type: 3}
+--- !u!114 &1364023413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364023405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlanePrefab: {fileID: 8531855840930582763, guid: a90f8a6de5cca4f48a6a3346aa3dc5d3, type: 3}
+  m_DetectionMode: -1
 --- !u!1 &1630202655
 GameObject:
   m_ObjectHideFlags: 0
