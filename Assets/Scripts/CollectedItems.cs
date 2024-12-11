@@ -36,15 +36,15 @@ public class CollectedItems : MonoBehaviour
         {
             foreach (GameObject item in collectedObjects) //goes through each item in the list
             {
-                if (item = Cube)
+                if (item == Cube)
                 {
                     item1.SetActive(true);
                 }
-                else if (item = Cube1)
+                else if (item == Cube1)
                 {
                     item2.SetActive(true);
                 }
-                else if (item = Cube2)
+                else if (item == Cube2)
                 {
                     item3.SetActive(true);
                 }
