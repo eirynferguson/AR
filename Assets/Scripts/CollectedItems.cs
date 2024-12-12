@@ -24,6 +24,10 @@ public class CollectedItems : MonoBehaviour
     public void AddItem(GameObject s)
     {
         collectedObjects.Add(s);
+
+        Cube = GameObject.Find("Cube");
+        Cube1 = GameObject.Find("Cube1");
+        Cube2 = GameObject.Find("Cube2");
     }
 
     void Start()

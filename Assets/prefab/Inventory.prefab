@@ -47,7 +47,7 @@ MonoBehaviour:
   item1: {fileID: 0}
   item2: {fileID: 0}
   item3: {fileID: 0}
-  Cube: {fileID: 5682425371745328995, guid: f1aaa71b9a96d0045994fed2fa281030, type: 3}
-  Cube1: {fileID: 5682425371745328995, guid: b3f6349a2bc70e94ea95cbd9768cbe07, type: 3}
-  Cube2: {fileID: 5682425371745328995, guid: cbf7e7a6124689544b16a57c01098045, type: 3}
+  Cube: {fileID: 0}
+  Cube1: {fileID: 0}
+  Cube2: {fileID: 0}
   collectedObjects: []
