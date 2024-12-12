@@ -13,11 +13,15 @@ public class CollectedItems : MonoBehaviour
     public GameObject item2;
     public GameObject item3;
 
-    private List<GameObject> collectedObjects = new List<GameObject>();
+    public GameObject Cube;
+    public GameObject Cube1;
+    public GameObject Cube2;
+
+    public List<GameObject> collectedObjects = new List<GameObject>();
 
     //GameObject item;
    
-    public void Add(GameObject s)
+    public void AddItem(GameObject s)
     {
         collectedObjects.Add(s);
     }
@@ -48,9 +52,7 @@ public class CollectedItems : MonoBehaviour
                 {
                     item3.SetActive(true);
                 }
-            }
-            
-             
+            }      
         }
     }
 }

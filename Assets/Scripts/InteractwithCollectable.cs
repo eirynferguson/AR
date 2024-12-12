@@ -11,7 +11,7 @@ public class InteractwithCollectable : MonoBehaviour
 
     public void OnMouseClick()
     {
-        list.Add(this.gameObject);
+        list.AddItem(this.gameObject);
         Destroy(this.gameObject);
     }
 }
