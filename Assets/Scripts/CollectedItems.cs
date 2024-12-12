@@ -28,32 +28,30 @@ public class CollectedItems : MonoBehaviour
 
     public void Collect(GameObject cube)
     {
-        /*if (collectedObjects.Count > 0) //checks there are items in the list
+        if (collectedObjects.Count > 0) //checks there are items in the list
         {
-            
-        }*/
+            foreach (GameObject item in collectedObjects) //goes through each item in the list
+            {
+                if (item == Cube)
+                {
+                    item1.SetActive(true);
+                    Destroy(cube);
+                }
+                else if (item == Cube1)
+                {
+                    item2.SetActive(true);
+                    Destroy(cube);
 
-        foreach (GameObject item in collectedObjects) //goes through each item in the list
-        {
-            if (item == Cube)
-            {
-                item1.SetActive(true);
-                Destroy(cube);
-            }
-            else if (item == Cube1)
-            {
-                item2.SetActive(true);
-                Destroy(cube);
-
-            }
-            else if (item == Cube2)
-            {
-                item3.SetActive(true);
-                Destroy(cube);
-            }
-            else
-            {
-                return;
+                }
+                else if (item == Cube2)
+                {
+                    item3.SetActive(true);
+                    Destroy(cube);
+                }
+                else
+                {
+                    return;
+                }
             }
         }
     }
